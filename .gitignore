@@ -137,3 +137,5 @@ cython_debug/
 
 # notes, remove at merge
 .notes/
+
+.idea/
