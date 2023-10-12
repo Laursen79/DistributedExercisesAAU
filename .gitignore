@@ -139,3 +139,5 @@ cython_debug/
 .notes/
 
 .idea/
+
+src/distributed_exercises_aau/version.py

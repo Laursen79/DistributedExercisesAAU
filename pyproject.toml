@@ -1,0 +1,29 @@
+# This is a template. Search and replace 'package_name' with the name of your package.
+[project]
+dynamic = ["version"]
+name = "distributed-exercises-aau"
+authors = [
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+ds-exercise = "distributed_exercises_aau.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/distributed_exercises_aau/version.py"
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["src"]
+include = ["distributed_exercises_aau*"]
+
