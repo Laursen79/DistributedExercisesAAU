@@ -4,18 +4,6 @@ from os import name
 from threading import Thread
 from emulators.exercise_overlay import Window
 
-import exercises.exercise1
-import exercises.exercise2
-import exercises.exercise4
-import exercises.exercise5
-import exercises.exercise6
-import exercises.exercise7
-import exercises.exercise8
-import exercises.exercise9
-import exercises.exercise10
-import exercises.exercise11
-import exercises.exercise12
-import exercises.demo
 from emulators.AsyncEmulator import AsyncEmulator
 from emulators.SyncEmulator import SyncEmulator
 from emulators.SteppingEmulator import SteppingEmulator
