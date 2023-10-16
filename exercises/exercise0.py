@@ -3,7 +3,7 @@ import unittest
 __aliases__ = ["0", "welcome", "start"]
 
 
-# Exercise    1 ====================================================================================================== #
+# Exercise    0 ====================================================================================================== #
 #
 #   This is a demonstration exercise to teach you how to use the framework.
 #   To solve this exercise, modify the method `return_i_understand` to return "I understand".
@@ -36,8 +36,8 @@ class TestClass:
 
 
 # ! DO NOT EDIT ! ==================================================================================================== #
-# The code below is tests that will determine whether your solution is correct.
-# You should not edit anything below this point.
+# The code below is tests that will determine whether your solution is correct.                                        #
+# You should not edit anything below this point.                                                                       #
 # ==================================================================================================================== #
 
 
